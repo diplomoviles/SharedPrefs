@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tallercmovil.sharedprefs.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="50"
+        android:title=""
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="50"
+        android:title=""
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_azul"
+        android:orderInCategory="100"
+        android:title="Azul"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rojo"
+        android:orderInCategory="100"
+        android:title="Rojo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_verde"
+        android:orderInCategory="100"
+        android:title="Verde"
+        app:showAsAction="never" />
+</menu>
